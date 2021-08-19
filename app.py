@@ -2,8 +2,7 @@ from os import name
 from flask import Flask,redirect,render_template,request,jsonify
 import firebase_admin
 from firebase_admin import credentials,firestore
-#import json
-#import requests
+
 
 app = Flask(__name__)
 
@@ -115,4 +114,4 @@ def re():
 
 
 if __name__=='__main__':
-    app.run(host='0.0.0.0',port=5000,debug=True)
+    app.run(debug=True)

@@ -1,3 +1,15 @@
-Flask == 2.0.1
-Firebase == 3.0.1
 gunicorn == 20.1.0
+flask == 2.0.1
+gunicorn == 20.1.0
+Werkzeug == 2.0.1
+itsdangerous == 2.0.1
+Jinja2 == 3.0.1
+click == 8.0.1
+setuptools == 56.0.0
+colorama 0.4.4
+MarkupSafe == 2.0.1
+firebase == 3.0.1
+requests == 2.25.1
+firebase-admin == 5.0.1
+firestore == 0.0.8
+jsonify == 0.5

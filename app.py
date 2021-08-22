@@ -6,7 +6,7 @@ from firebase_admin import credentials,firestore
 
 app = Flask(__name__)
 
-cred = credentials.Certificate("telefind-hhp.json")
+cred = credentials.Certificate("tele****.json")  # Secret Credentials not on view
 firebase_admin.initialize_app(cred)
 store=firestore.client()
 
